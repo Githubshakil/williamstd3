@@ -7,9 +7,22 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'shakil':   "'Montserrat', sans-serif",
+        'manufont':   "'Montserrat', sans-serif",
         
-      }
+      },
+
+      maxWidth: {
+        'container': '1170px',
+      },
+
+      padding: {
+        '50': '50px',
+      },
+
+      colors: {
+        'navlink': '#838383',
+        'secondary':'#8671FC',
+      },
     },
   },
   plugins: [],
