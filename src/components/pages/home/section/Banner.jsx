@@ -16,8 +16,10 @@ const Banner = () => {
                              My ultimate motto is to fulfill the demand of the buyers by making them satisfied with proper file delivery in time and without delay.  
                         </p>
 
+                        <div className='flex gap-3'>
                         <Button href={'#'} buttonText={'Hire Me'}/>
                         <ButtonWithIcon href={'#'} buttonText={'DOWNLOAD RESUME'}/>
+                        </div>
                 </div>
                 <div>
                     <img src={pink_oval} alt="image" />
