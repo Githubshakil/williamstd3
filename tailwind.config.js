@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'manufont':   "'Montserrat', sans-serif",
+        'Montserrat':   "'Montserrat', sans-serif",
       },
       maxWidth: {
         'container': '1170px',

@@ -10,9 +10,9 @@ const Banner = () => {
         <div className='customContainer'>
             <div className='flex justify-between items-center mt-20' >
                 <div>
-                    <h4 className='font-manufont text-lg font-bold text-lightBlack mb-5'>Hello i’m <span className='text-ladyPink'>Visual Designer</span></h4>
-                    <h1 className='max-w-[471px] font-manufont font-bold text-7xl text-lightBlack leading-[88px]'>William Andersons</h1>
-                        <p className='max-w-[460px] text-paraColor font-manufont text-base leading-6 mt-8 mb-[50px]'>
+                    <h4 className='font-Montserrat text-lg font-bold text-lightBlack mb-5'>Hello i’m <span className='text-ladyPink'>Visual Designer</span></h4>
+                    <h1 className='max-w-[471px] font-Montserrat font-bold text-7xl text-lightBlack leading-[88px]'>William Andersons</h1>
+                        <p className='max-w-[460px] text-paraColor font-Montserrat text-base leading-6 mt-8 mb-[50px]'>
                              My ultimate motto is to fulfill the demand of the buyers by making them satisfied with proper file delivery in time and without delay.  
                         </p>
 
