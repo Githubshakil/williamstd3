@@ -22,6 +22,7 @@ export default {
         'ladyPink': '#F05D7B',
         'paraColor': '#838383'
         
+        
       },
     },
   },
