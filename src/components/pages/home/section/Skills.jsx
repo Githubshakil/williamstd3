@@ -8,7 +8,7 @@ const Skills = () => {
   return (
     <>
     <div className='customContainer '>
-        <div className='mt-7'>
+        <div className='mt-[150px]'>
         <SubHeading subText={'SKILLS'}/>
         <Title titleText={'What Can I Do'}/>
         </div>
