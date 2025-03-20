@@ -18,7 +18,7 @@ const Banner = () => {
 
                         <div className='flex gap-3'>
                         <Button href={'#'} buttonText={'Hire Me'}/>
-                        <ButtonWithIcon href={'#'} buttonText={'DOWNLOAD RESUME'}/>
+                        <ButtonWithIcon href={'#'} buttonText={'DOWNLOAD RESUME'} hoverCSS="true" paddingSize="true"/>
                         </div>
                 </div>
                 <div>

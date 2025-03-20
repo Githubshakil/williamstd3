@@ -28,7 +28,7 @@ const AboutMe = () => {
                         <p className='max-w-[501px] text-[#ffffff] text-base mt-8 mb-[70px] font-Montserrat font-normal leading-7'>
                         Being the savage's bowsman, that is, the person who pulled the bow-oar in his boat (the second one from forward), it was my cheerful duty to attend upon him while taking that hard-scrabble scramble upon the dead whale's back. You have seen Italian organ-boys  
                         </p>
-                        <ButtonWithIcon href={'#'} buttonText={'DOWNLOAD RESUME'}/>
+                        <ButtonWithIcon href={'#'} buttonText={'DOWNLOAD RESUME'} textColor="true"/>
                     </div>
                     <div>
                         <h3 className='max-w-[360px] h-[84px] mt-[89px] text-3xl text-[#ffffff] mb-8 font-Montserrat font-bold leading-normal '>
