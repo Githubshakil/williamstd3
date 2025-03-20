@@ -10,7 +10,7 @@ export default {
         'Montserrat':   "'Montserrat', sans-serif",
       },
       maxWidth: {
-        'container': '1170px',
+        'customContainer': '1170px',
       },
       padding: {
         '50': '50px',
