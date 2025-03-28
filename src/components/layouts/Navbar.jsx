@@ -16,7 +16,7 @@ const Navbar = () => {
                 <li key={nav.id}>
                   <a
                     href={nav.url}
-                    className="text-navlink text-base font-manufont font-semibold leading-normal capitalize transition-all duration-200 hover:text-secondary"
+                    className="text-navlink text-base font-Montserrat font-semibold leading-normal capitalize transition-all duration-200 hover:text-secondary"
                   >
                     {nav.title}
                   </a>
