@@ -3,6 +3,7 @@ import SubHeading from '../../../helpers/subHeading'
 import Title from '../../../helpers/Title'
 import BlankBoxes from '../../../helpers/BlankBoxes'
 import PortfolioBar from '../../../layouts/PortfolioBar'
+import { blankBoxData } from '../../../../dummyData/blankBoxes'
 
 
 const Portfolio = () => {
@@ -15,13 +16,21 @@ const Portfolio = () => {
             <div className='flex justify-center mt-10'>
             <PortfolioBar/>
             </div>
+            {/* <div className='grid grid-cols-3 gap-8 mt-[50px] mb-[50px]'>
+                <BlankBoxes />
+                <BlankBoxes />
+                <BlankBoxes />
+                <BlankBoxes />
+                <BlankBoxes />
+                <BlankBoxes />
+            </div> */}
             <div className='grid grid-cols-3 gap-8 mt-[50px] mb-[50px]'>
-                <BlankBoxes />
-                <BlankBoxes />
-                <BlankBoxes />
-                <BlankBoxes />
-                <BlankBoxes />
-                <BlankBoxes />
+                {
+                    blankBoxData.map((item,index)=>(
+                      <BlankBoxes key={index}/>
+                    ))
+                      
+                }
             </div>
         </div>
     </div>

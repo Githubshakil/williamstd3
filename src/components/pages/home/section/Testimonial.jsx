@@ -12,8 +12,8 @@ const Testimonial = () => {
     <div className="customContainer flex justify-between  ">
         <div className='w-[30%]  flex flex-col  items-start ml-[50px]'>
         <SubHeading subText={'TESTIMONIALS'}/>
-        <Title titleText= {'My Work What they say about me'} textLeft="ture"/>
-        <p className='text-[16px] text-paraColor mt-6 mb-25 w-[311px] h-[78px] leading-[24px]'>
+        <Title titleText= {'What they say about me'} textLeft="ture"/>
+        <p className='font-Montserrat text-[16px] text-paraColor mt-6 mb-25 w-[311px] h-[78px] leading-[24px]'>
         Being the savage's bowsman, that is, the person who pulled the bow-oar in his boat (the second on.
         </p>
         <div className='flex gap-x-5 mt-10'>
