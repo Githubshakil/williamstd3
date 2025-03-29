@@ -6,6 +6,7 @@ import Skills from './section/Skills'
 import Portfolio from './section/Portfolio'
 import Testimonial from './section/Testimonial'
 import OurClint from './section/OurClint'
+import Contact from './section/Contact'
 
 const HomeIndex = () => {
   return (
@@ -17,6 +18,7 @@ const HomeIndex = () => {
       <Portfolio/>
       <Testimonial/>
       <OurClint/>
+      <Contact/>
     </>
   )
 }
