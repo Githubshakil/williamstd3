@@ -16,7 +16,7 @@ const Testimonial = () => {
         <p className='font-Montserrat text-[16px] text-paraColor mt-6 mb-25 w-[311px] h-[78px] leading-[24px]'>
         Being the savage's bowsman, that is, the person who pulled the bow-oar in his boat (the second on.
         </p>
-        <div className='flex gap-x-5 mt-10'>
+        <div className='flex gap-x-5 mt-20'>
             <button className='w-[70px] h-[70px] text-[30px] text-bold hover:bg-secondary flex items-center justify-center duration-300' ><GoChevronLeft /></button>
             <button className='w-[70px] h-[70px] text-[30px] text-bold hover:bg-secondary flex items-center justify-center duration-300' ><GoChevronRight /></button>
             
