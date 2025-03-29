@@ -1,7 +1,7 @@
 import React from 'react'
 import ovalAboutLg from '../../../../assets/images/ovalAboutLg.png'
 import ovalAboutSm from '../../../../assets/images/ovalAboutSm.png'
-import Button from '../../../helpers/Button'
+
 const Contact = () => {
   return (
     <>
