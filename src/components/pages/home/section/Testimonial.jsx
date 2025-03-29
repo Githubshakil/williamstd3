@@ -1,18 +1,19 @@
 import React from 'react'
 import SubHeading from '../../../helpers/subHeading'
 import Title from '../../../helpers/Title'
-import SliderBox from '../../../helpers/SliderBox'
 import { GoChevronLeft, GoChevronRight } from "react-icons/go";
+import TestimonialCart from '../../../helpers/TestimonialCart';
+import { testimonialData } from '../../../../dummyData/testimonialData';
 
 const Testimonial = () => {
   return (
     <>
     
-    <div className="customContainer flex justify-between ">
-        <div className='w-[30%]  flex flex-col justify-center items-start ml-[50px]'>
+    <div className="customContainer flex justify-between  ">
+        <div className='w-[30%]  flex flex-col  items-start ml-[50px]'>
         <SubHeading subText={'TESTIMONIALS'}/>
-        <Title titleText= {'My Work What they say about me'}/>
-        <p className='text-[16px] text-paraColor mt-6 mb-25 max-w-[311px] max-h-[78px] leading-[24px]'>
+        <Title titleText= {'My Work What they say about me'} textLeft="ture"/>
+        <p className='text-[16px] text-paraColor mt-6 mb-25 w-[311px] h-[78px] leading-[24px]'>
         Being the savage's bowsman, that is, the person who pulled the bow-oar in his boat (the second on.
         </p>
         <div className='flex gap-x-5 mt-10'>
@@ -24,8 +25,17 @@ const Testimonial = () => {
         </div>
 
 
-        <div className='w-[70%]'>
-              <SliderBox/>  
+        <div >
+               
+              <div>
+                <div className='flex gap-x-10  ml-[150px]  '>
+                    {
+                        testimonialData.map((item) => (
+                            <TestimonialCart key={item.id} para={item.para} title={item.title} designation={item.designation}/>
+                        ))
+                    }
+                </div>
+              </div>
         </div>
 
     </div>

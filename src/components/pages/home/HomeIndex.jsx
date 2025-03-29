@@ -5,6 +5,7 @@ import AboutMe from './section/AboutMe'
 import Skills from './section/Skills'
 import Portfolio from './section/Portfolio'
 import Testimonial from './section/Testimonial'
+import OurClint from './section/OurClint'
 
 const HomeIndex = () => {
   return (
@@ -15,6 +16,7 @@ const HomeIndex = () => {
       <Skills/>
       <Portfolio/>
       <Testimonial/>
+      <OurClint/>
     </>
   )
 }
