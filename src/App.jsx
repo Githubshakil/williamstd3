@@ -1,11 +1,12 @@
-import HomeIndex from "./components/pages/home/HomeIndex"
 
 
 function App() {
-
+  
 
   return (
-    <HomeIndex/>
+    <>
+     <HomeIndex/>
+    </>
   )
 }
 
