@@ -5,8 +5,9 @@ import AboutMe from './section/AboutMe'
 import Skills from './section/Skills'
 import Portfolio from './section/Portfolio'
 import Testimonial from './section/Testimonial'
-import OurClint from './section/OurClint'
+
 import Contact from './section/Contact'
+import OurClint from './section/OurClint'
 
 const HomeIndex = () => {
   return (

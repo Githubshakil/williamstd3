@@ -1,3 +1,6 @@
+import HomeIndex from "./components/pages/home/HomeIndex";
+
+
 
 
 function App() {
@@ -5,9 +8,9 @@ function App() {
 
   return (
     <>
-     <HomeIndex/>
+      <HomeIndex/>
     </>
   )
 }
 
-export default App
+export default App;

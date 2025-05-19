@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { MdOutlineArrowForwardIos } from "react-icons/md";
 
 const ButtonWithIcon = ({href,buttonText,hoverCSS,textColor,paddingSize}) => {
