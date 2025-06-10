@@ -9,7 +9,7 @@ const Testimonial = () => {
   return (
     <>
     
-    <div className="customContainer flex justify-between  ">
+    <div className="max-w-customContainer mx-auto flex justify-between text-clip  ">
         <div className='w-[30%]  flex flex-col  items-start ml-[50px]'>
         <SubHeading subText={'TESTIMONIALS'}/>
         <Title titleText= {'What they say about me'} textLeft="ture"/>

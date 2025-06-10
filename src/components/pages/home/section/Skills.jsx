@@ -7,7 +7,7 @@ import SkillBoxes from '../../../helpers/SkillBoxes'
 const Skills = () => {
   return (
     <>
-    <div className='customContainer '>
+    <div className='max-w-customContainer mx-auto '>
         <div className='mt-[150px]'>
         <SubHeading subText={'SKILLS'}/>
         <Title titleText={'What Can I Do'}/>
