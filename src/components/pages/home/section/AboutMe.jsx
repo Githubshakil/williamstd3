@@ -16,8 +16,8 @@ const AboutMe = () => {
                  <img src={ovalAboutSm} alt="" />
             </div>
 
-            <div className='customContainer  '>
-                <div className='flex justify-between'>
+            <div className='max-w-customContainer mx-auto  '>
+                <div className='flex justify-between '>
                     <div>
                         <h4 className='font-Montserrat text-[18px] font-bold  text-lg text-[#ffffff] mb-5 leading-normal '>About Me</h4>
                         <h3 className='w-[560px] h-[126px]  text-3xl text-[#ffffff] font-Montserrat font-bold leading-normal'>

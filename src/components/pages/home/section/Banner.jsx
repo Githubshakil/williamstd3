@@ -7,7 +7,7 @@ import ButtonWithIcon from '../../../helpers/ButtonWithIcon'
 const Banner = () => {
   return (
     <>
-        <div className='customContainer'>
+        <div className='max-w-customContainer mx-auto'>
             <div className='flex justify-between items-center mt-20' >
                 <div>
                     <h4 className='font-Montserrat text-lg font-bold text-lightBlack mb-5'>Hello i’m <span className='text-ladyPink'>Visual Designer</span></h4>

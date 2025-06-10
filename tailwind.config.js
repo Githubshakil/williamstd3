@@ -9,10 +9,7 @@ export default {
       fontFamily: {
         'Montserrat':   "'Montserrat', sans-serif",
       },
-      maxWidth: {
-        'customContainer': '1170px',
-      },
-      padding: {
+      spacing: {
         '50': '50px',
       },
       colors: {
@@ -21,8 +18,9 @@ export default {
         'lightBlack':'#222222',
         'ladyPink': '#F05D7B',
         'paraColor': '#838383'
-        
-        
+      },
+      maxWidth: {
+        'customContainer': '1170px',
       },
     },
   },

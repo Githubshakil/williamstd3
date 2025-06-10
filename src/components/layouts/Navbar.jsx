@@ -5,7 +5,7 @@ import { navData } from "../../dummyData/navData";
 const Navbar = () => {
   return (
     <nav className="pt-50">
-      <div className="customContainer">
+      <div className="max-w-customContainer mx-auto">
         <div className="flex justify-between items-center">
           <div>
             <img src={logoImg} alt="logo" />
